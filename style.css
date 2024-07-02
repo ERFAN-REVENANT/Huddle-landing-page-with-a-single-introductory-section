@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color: #674bb1;
+    overflow: hidden;
+    width: 100%;
+}
+.back{
+    position: absolute;
+    top: -1%;
+    z-index: -1;
+}
+.back img{
+    height: 750px;
+    width: auto;
+}
+.landing{
+    padding: 40px;
+}
+.header img{
+    height: auto;
+    width: 200px;
+}
+.body{
+    display: flex;
+    flex-direction: row;;
+    font-family: "poppins";
+    margin-top: 60px;
+}
+.info{
+    margin-left: 50px;
+}
+.title{
+    font-size: 38px;
+    color: #ffff;
+    font-weight: 600;
+}
+.desc{
+    margin-top: 30px;
+    font-family: "open sans";
+    width: 445px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.register{
+    background-color: #ffffff;
+    color: #674bb1;
+    border-radius: 40px;
+    border: none; 
+    width: 150px;
+    padding: 20px 0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: "poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.footer button img{
+    width: 1em;
+    height: 1em;
+    align-items: center;
+    color: #ffffff;
+    fill: #ffffff;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    height: 32px;
+    width: 32px;
+}
+.icon{
+    fill: #ffff;
+    color: #ffffff;
+}
+.register:hover{
+    background-color: #e980e7;
+    color: #ffffff;
+}
+.footer button:hover{
+    border: 1px solid #e980e7;
+}
+.footer button:hover{
+    color: #e980e7;
+}
+.icon-instagram svg:hover{
+    fill: #e980e7;
+}
