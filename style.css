@@ -10,10 +10,6 @@ body{
     top: -1%;
     z-index: -1;
 }
-.back img{
-    height: 750px;
-    width: auto;
-}
 .landing{
     padding: 40px;
 }
